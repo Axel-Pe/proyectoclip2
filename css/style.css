@@ -1,0 +1,31 @@
+
+body{
+    background:   #ffffff url(../img/img1.jpg) no-repeat fixed;
+    background-position: center;
+    background-size: auto;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+header{
+    margin: 0px;
+    background: rgba(245, 245, 245, 0.842);
+    height: 70px;
+    width: 100%;
+    border: 1px solid red;
+    
+    
+}
+header .logo{
+    padding: 0px;
+    margin-left: 20px;
+    width: 20px;
+    text-align: left;
+    height: inherit;
+    font-family: 'Alata', sans-serif;
+    
+}
+header .logo span{
+    color: rgb(17, 43, 83);
+}
