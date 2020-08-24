@@ -2,7 +2,7 @@
 body{
     background:   #ffffff url(../img/img1.jpg) no-repeat fixed;
     background-position: center;
-    background-size: cover;
+    background-size: auto;
     margin: 0px;
     padding: 0px;
     
@@ -50,10 +50,10 @@ header .logo span{
   }
   section{
     background: rgba(245, 245, 245, 0.842);
-    max-width: 500px;
-    margin: 250px auto 0px;
+    max-width: 1000px;
+    margin: 200px auto 0px;
   }
-  .accordion {
+  .desplegable {
     background-color: #eee;
     color: #444;
     cursor: pointer;
@@ -65,7 +65,7 @@ header .logo span{
     transition: 0.4s;
   }
 
-.active, .accordion:hover {
+.active, .desplegable:hover {
   background-color: #ccc;
 }
 
@@ -76,7 +76,7 @@ header .logo span{
   display: none;
   overflow: hidden;
 }
-.accordion:after {
+.desplegable:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: #777;
@@ -86,4 +86,24 @@ header .logo span{
 
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.panel ul{
+  list-style: none;
+}
+.panel ul a{
+  text-decoration: none;
+}
+footer{
+  margin-top: 20px;
+  padding-top: 20px;/*ver si agregar padding top 20px*/
+  padding-bottom: 20px;
+  height: 100px;
+  width: 100%;
+  background-color:rgb(7, 7, 53);
+  text-align: center;
+  bottom: auto;
+}
+footer h3{
+  color: white;
 }

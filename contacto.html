@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header> 
+        <nav class="topnav" id="myTopnav">
+          <div class="logo">
+            <h1><span>Wiki</span>clip</h1>
+          </div>
+            <a href="index.html">Home</a>
+            <a href="#">News</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+        </nav>
+          
+    </header>
+    <section>
+        <form action="php/enviardatosform.php" method="POST">
+            <table border="0" cellpadding="5">
+                <tr>
+                    <td><p>Ingrese su nombre:</p></td>
+                    <td><input type="text" required name="nombre"></imput></td>
+                </tr>
+                <tr>
+                    <td><p>Ingrese su Email:</p></td>
+                    <td><input type="email" placeholder="example@hotmail.com" required name="email"></td>
+                </tr>
+                <tr>
+                    <td><p>Ingrese su comentario:</p></td>
+                    <td><textarea rows="6" cols="40" required name="mensaje"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Enviar"></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    <footer>
+            <h3>
+            <div Class="vcard">
+                <span class="name">
+                    Blog
+                </span>-<span class="locality">
+                    ciudad
+                </span>-<span class="postal-code">
+                    codigo postal
+                </span>-<span class="country-name">
+                    nombre del pais
+                </span>
+                
+            </div>
+            <div>
+                <spam class="telefono">
+                    telefono
+                </spam>-<spam class="mail">
+                    direccion de correo
+                </spam>
+    
+            </div>
+        </h3>
+    </footer>
+</body>
+</html>
