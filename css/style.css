@@ -10,12 +10,11 @@ body{
 }
 header{
     margin: 0px;
+    overflow: hidden;
     background: rgba(245, 245, 245, 0.842);
-    height: 70px;
+    height: 120px;
     width: 100%;
-    border: 1px solid red;
-    
-    
+    border: 1px solid red;   
 }
 header .logo{
     padding: 0px;
@@ -29,3 +28,23 @@ header .logo{
 header .logo span{
     color: rgb(17, 43, 83);
 }
+
+.topnav {
+  
+  overflow: auto;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; 
+  }
+  .topnav a:hover {
+    background-color: rgba(255, 200, 98, 0.911);
+    color: black;
+  }
