@@ -8,102 +8,19 @@ body{
     
     
 }
-header{
-    margin: 0px;
-    overflow: hidden;
-    background: rgba(245, 245, 245, 0.842);
-    height: 120px;
-    width: 100%;
-    border: 1px solid red;   
-}
-header .logo{
-    padding: 0px;
-    margin-left: 20px;
-    width: 20px;
-    text-align: left;
-    height: inherit;
-    font-family: 'Alata', sans-serif;
-    
-}
-header .logo span{
-    color: rgb(17, 43, 83);
-}
+.nav-item:hover {background-color: rgba(255, 200, 98, 0.911);
+  color: black;}
 
-.topnav {
-  
-  overflow: auto;
-  }
-
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 0px;
-    text-decoration: none;
-    font-size: 17px;
-    width: 25%; 
-  }
-  .topnav a:hover {
-    background-color: rgba(255, 200, 98, 0.911);
-    color: black;
-  }
-  section{
-    background: rgba(245, 245, 245, 0.842);
-    max-width: 1000px;
-    margin: 200px auto 0px;
-  }
-  .desplegable {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-  }
-
-.active, .desplegable:hover {
-  background-color: #ccc;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-}
-.desplegable:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
-
-.panel ul{
-  list-style: none;
-}
-.panel ul a{
-  text-decoration: none;
-}
-footer{
+/*footer{
   margin-top: 20px;
-  padding-top: 20px;/*ver si agregar padding top 20px*/
+  padding-top: 20px;/*ver si agregar padding top 20px*//*
   padding-bottom: 20px;
   height: 100px;
   width: 100%;
   background-color:rgb(7, 7, 53);
   text-align: center;
   bottom: auto;
-}
+}*/
 footer h3{
   color: white;
 }
